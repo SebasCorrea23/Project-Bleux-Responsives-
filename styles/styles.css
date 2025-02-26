@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "arvo";
+    max-width: 100%;
+}
+
+/* Navegador*/
+
+header{
+    color: white;
+    display: flex;
+    background-color: #1e172f;
+    height: 66px;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;   
+}
+
+/* Cuadros Dobles*/
