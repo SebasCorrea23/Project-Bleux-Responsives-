@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: "arvo";
+    font-family:  "arvo";
     max-width: 100%;
 }
 
@@ -12,20 +12,80 @@
 
 header{
     color: white;
-    display: flex;
     background-color: #1e172f;
-    height: 66px;
+    height: 66px;    
 }
 
 .navegador{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    gap: 14%;
+}
+
+.mitadDer{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    list-style: none;
 }
 
 a{
     color: white;
-    text-decoration: none;   
+    text-decoration: none;  
+        
+}
+
+.navList3{
+    width: 152px;
+}
+
+.btt1{
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background:linear-gradient(90deg, #8142d6 5%, #167dcc);
 }
 
 /* Cuadros Dobles*/
+
+.doble{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cuadroIzq{
+    width: 50%;
+    background-color: #2e2550;
+    color: white;
+    
+}
+.cuaText{
+    width: 80%;
+    font-size: 120%; 
+    margin-bottom: 5%;
+    padding: 9% 0% 0% 15%;   
+}
+.cuaText h1{
+    font-size: 270%;
+    width: 50%;
+    margin-bottom: 5%;
+}
+.dobleButton{
+    border: 2px solid white;
+    padding: 0% 0% 0% 0% ;
+}
+
+
+
+.cuadroDer{
+    width: 50%;
+    background: url(../assets/hojasFondo.jpg) no-repeat;
+    background-size: 125%;
+    height: 618px;
+}
+.cuadroDer img{
+    height: 600px;
+    padding: 110px 120px 20px;   
+}
